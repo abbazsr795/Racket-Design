@@ -31,6 +31,10 @@ export default function Home() {
       </div>
       <br></br>
       <div className="flex flex-row justify-center">
+        <button onClick={() => push("/settings")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-96 text-md text-slate-600 hover:text-slate-400">Settings Box</button>
+      </div>
+      <br></br>
+      <div className="flex flex-row justify-center">
         <button onClick={() => push("/signin")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-96 text-md text-slate-600 hover:text-slate-400">SignIn</button>
       </div>
       <br></br>
