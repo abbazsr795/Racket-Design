@@ -6,7 +6,7 @@ import "../globals.css"
 
 export default function Footer (){
     return(
-        <div className="p-2 flex flex-row justify-center">
+        <div className="p-2 flex flex-row justify-center bg-white">
             <div>
                 <p className="flex flex-row justify-center font-bold text-lg">Abbazs Rahman</p>
                 <p className="flex flex-row justify-center">Since 2004. All rights reserved.</p>

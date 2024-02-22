@@ -12,3 +12,4 @@
 * Header - Every dir
 * Footer - Every dir
 * Buttons - "/buttons"
+* Cards - "/cards"
