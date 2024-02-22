@@ -1,4 +1,4 @@
-# Reusable Components for Racket
+# Reusable Components for Abbazs
 
 ## Prerequisites
 * Zustand (or any state management tool)

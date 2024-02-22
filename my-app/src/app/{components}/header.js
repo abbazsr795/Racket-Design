@@ -10,7 +10,7 @@ export default function Header (){
     return(
         <div className="fixed left-0 right-0 top-0 w-screen">
             <div className="flex flex-row justify-between md:justify-around items-center py-3 px-5">
-               <p className="font-bold text-xl">RacketJS</p>
+               <p className="font-bold text-xl">AbbazsJS</p>
                <div>
                     {/* Requires Popover, Position, Menu, Button, toaster from Evergreen-UI */}
                     <Popover
