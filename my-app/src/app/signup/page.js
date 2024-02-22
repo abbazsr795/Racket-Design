@@ -5,6 +5,7 @@ import { Checkbox } from "evergreen-ui";
 
 export default function SignUp(){
     return(
+        // Component is horizontally centered by default in the layout.js page with a top margin
         <div className="border bprder-1 p-10 m-2 rounded w-2/6 min-w-fit">
             <p className="flex flex-row justify-center text-2xl">Create Account</p>
             <br></br>

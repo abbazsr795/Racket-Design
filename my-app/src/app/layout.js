@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "./{components}/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,10 +13,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* This div component horizontally centers with a top margin */}
-        <div className="flex flex-row justify-center mt-32">
-          {children}
+        {/* The App class allows the footer to permanently reside at the bottom of the page */}
+        <div className="App">
+          {/* This div component horizontally centers with a top margin */}
+          <div className="flex flex-row justify-center mt-32">
+            {children}
+          </div>
         </div>
+        {/* The Footer component */}
+        <Footer/>
       </body>
     </html>
   );
