@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="p-5 m-2">
-      <p className="font-bold text-5xl text-center">A framework where you copy code built using other Js libraries instead of installing libraries</p>
+      <p className="font-bold text-3xl md:text-5xl text-center">A framework where you copy code built using other Js libraries instead of installing libraries</p>
       <br></br>
       <br></br>
       <br></br>
