@@ -15,27 +15,27 @@ export default function Home() {
       <br></br>
       <br></br>
       <div className="flex flex-row justify-center">
-        <button onClick={() => push("/buttons")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-full text-md text-slate-600 hover:text-slate-400">Buttons</button>
+        <button onClick={() => push("/buttons")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-96 text-md text-slate-600 hover:text-slate-400">Buttons</button>
       </div>
       <br></br>
       <div className="flex flex-row justify-center">
-        <button onClick={() => push("/cards")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-full text-md text-slate-600 hover:text-slate-400">Cards</button>
+        <button onClick={() => push("/cards")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-96 text-md text-slate-600 hover:text-slate-400">Cards</button>
       </div>
       <br></br>
       <div className="flex flex-row justify-center">
-        <button onClick={() => toaster.notify("Scroll down!")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-full text-md text-slate-600 hover:text-slate-400">Footer</button>
+        <button onClick={() => toaster.notify("Scroll down!")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-96 text-md text-slate-600 hover:text-slate-400">Footer</button>
       </div>
       <br></br>
       <div className="flex flex-row justify-center">
-        <button onClick={() => toaster.notify("Look up!")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-full text-md text-slate-600 hover:text-slate-400">Header</button>
+        <button onClick={() => toaster.notify("Look up!")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-96 text-md text-slate-600 hover:text-slate-400">Header</button>
       </div>
       <br></br>
       <div className="flex flex-row justify-center">
-        <button onClick={() => push("/signin")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-full text-md text-slate-600 hover:text-slate-400">SignIn</button>
+        <button onClick={() => push("/signin")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-96 text-md text-slate-600 hover:text-slate-400">SignIn</button>
       </div>
       <br></br>
       <div className="flex flex-row justify-center">
-        <button onClick={() => push("/signup")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-full text-md text-slate-600 hover:text-slate-400">SignUp</button>
+        <button onClick={() => push("/signup")} className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-96 text-md text-slate-600 hover:text-slate-400">SignUp</button>
       </div>
     </div>
   );
