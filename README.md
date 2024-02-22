@@ -1,4 +1,4 @@
-# Reusable Components for Abbazs
+# AbbazsJS (Free React Components)
 
 ## Prerequisites
 * Zustand (or any state management tool)
