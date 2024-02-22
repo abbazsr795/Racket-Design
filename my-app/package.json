@@ -12,7 +12,8 @@
     "evergreen-ui": "^7.1.9",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "zustand": "^4.5.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

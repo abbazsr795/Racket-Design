@@ -10,7 +10,7 @@ export default function SearchBox(){
         <div className="border bprder-1 p-5 m-2 rounded w-2/6 min-w-fit flex flex-row items-center gap-3">
             {/* <p className="text-md">Text</p> */}
             {/* Uses Next Image component */}
-            <Image src={SearchIcon1} width={30}></Image>
+            <Image alt="Search Icon" src={SearchIcon1} width={30}></Image>
             {/* Uses global.css for removing blue default outline when focus */}
             <input maxLength={100} className="border-solid border-slate-300 rounded border p-1 w-full"></input>
             <div className="flex flex-row justify-center">
