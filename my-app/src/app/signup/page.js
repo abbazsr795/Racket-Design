@@ -25,7 +25,7 @@ export default function SignUp(){
             <a href="/signin" className="text-xs flex flex-row justify-center hover:underline">Already have an account? Log in!</a>
             <br></br>
             <div className="flex flex-row justify-center">
-                <button className="border border-1 border-slate-300 hover:border-slate-400 rounded px-3 py-2 w-fit text-md">Continue</button>
+                <button className="border border-1 border-slate-600 hover:border-slate-400 rounded px-3 py-2 w-fit text-md text-slate-600 hover:text-slate-400">Continue</button>
             </div>
         </div>
     )

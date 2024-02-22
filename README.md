@@ -11,3 +11,4 @@
 * Settings Box - "/settings"
 * Header - Every dir
 * Footer - Every dir
+* Buttons - "/buttons"
