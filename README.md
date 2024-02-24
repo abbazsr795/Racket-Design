@@ -1,7 +1,7 @@
-# RacketJS (Free React Components)
+# RacketDesign (Free React Components from Racket Labs)
 
 ## In Action
-https://abbazsjs.vercel.app/
+https://racketdesign.vercel.app/
 
 ## Prerequisites
 * Zustand (or any state management tool)
