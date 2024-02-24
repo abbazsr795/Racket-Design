@@ -1,4 +1,4 @@
-# AbbazsJS (Free React Components)
+# RacketJS (Free React Components)
 
 ## Prerequisites
 * Zustand (or any state management tool)

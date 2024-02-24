@@ -2,8 +2,19 @@
 
 import React from "react";
 import { Checkbox } from "evergreen-ui";
+import { useEffect } from "react";
+import useStore from "../store";
 
 export default function SignUp(){
+
+    //Requires states forhiding/showing passwords
+    const ShowPassword = useStore((state) => state.showPassword)
+    const SetShowPassword = useStore((state) => state.changeShowPassword)
+
+    useEffect(() => {
+        SetShowPassword(false)
+    }, [])
+
     return(
         // Component is horizontally centered by default in the layout.js page with a top margin
         <div className="border border-1 p-10 m-2 rounded w-2/6 min-w-fit">
@@ -16,10 +27,12 @@ export default function SignUp(){
             <br></br>
             <p className="text-md">Password</p>
             {/* Uses global.css for removing blue default outline when focus */}
-            <input maxLength={100} type={"password"} className="border-solid border-slate-300 rounded border p-1 w-full"></input>
+            <input maxLength={100} type={!ShowPassword ? "password" : "text"} className="border-solid border-slate-300 rounded border p-1 w-full"></input>
             {/* Requires Evergreen-UI */}
             <Checkbox
             label="Show password"
+            checked={ShowPassword}
+            onChange={event => SetShowPassword(event.target.checked)}
             />
             <br></br>
             <a href="/signin" className="text-xs flex flex-row justify-center hover:underline">Already have an account? Log in!</a>

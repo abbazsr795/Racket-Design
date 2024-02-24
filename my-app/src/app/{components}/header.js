@@ -14,7 +14,7 @@ export default function Header (){
     return(
         <div className="fixed left-0 right-0 top-0 w-screen bg-white">
             <div className="flex flex-row justify-between md:justify-around items-center py-3 px-5">
-               <button onClick={()  => push("/")} className="font-bold text-xl">AbbazsJS</button>
+               <button onClick={()  => push("/")} className="font-bold text-xl">RacketJS</button>
                <div className="md:hidden">
                     {/* Requires Popover, Position, Menu, Button, toaster from Evergreen-UI */}
                     <Popover

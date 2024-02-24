@@ -2,16 +2,20 @@
 
 import {Pane, Tab, Tablist} from "evergreen-ui";
 import useStore from "@/app/store.js";
-
-//Requires Evergeen-UI and state (Zustand in this case)
+import { useEffect } from "react";
 
 export default function MyAccount(){
 
     const tabs = ["Privacy", "Security", "Payment", "Ownership"]
 
+    //Requires states moving through different tabs
     const SelectedTab = useStore((state) => state.selectedTab)
     const SetSelectedTab = useStore((state) => state.changeSelectedTab)
 
+    useEffect(() => {
+        SetSelectedTab(0)
+    }, [])
+    
     return(
         // Component is horizontally centered by default in the layout.js page with a top margin
         <div className="m-5 md:w-9/12 border border-1">
