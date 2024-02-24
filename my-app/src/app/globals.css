@@ -10,8 +10,8 @@ input:focus {
     display: flex;
     flex-direction: column;
 }
-/* To prevent horizontal scorlling */
-html, body {
+/* To prevent horizontal scorlling (code below)*/
+/* html, body {
     max-width: 100%;
     overflow-x: hidden;
-}
+} */
