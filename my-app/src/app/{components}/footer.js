@@ -6,10 +6,10 @@ import "../globals.css"
 
 export default function Footer (){
     return(
-        <div className="p-2 flex flex-row justify-center bg-white">
+        <div className="p-2 flex flex-row justify-center bg-red-500 w-100">
             <div>
                 <p className="flex flex-row justify-center font-bold text-lg">RacketDesign</p>
-                <p className="flex flex-row justify-center">© 2024 Racket Labs Inc. All rights reserved..</p>
+                <p className="flex flex-row justify-center">© 2024 Racket Labs Inc. All rights reserved.</p>
             </div>
         </div>
     )

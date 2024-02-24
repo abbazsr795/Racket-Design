@@ -12,7 +12,7 @@ export default function Header (){
     const {push} = useRouter()
 
     return(
-        <div className="fixed left-0 right-0 top-0 w-screen bg-white">
+        <div className="fixed left-0 right-0 top-0 w-screen bg-red-500">
             <div className="flex flex-row justify-between md:justify-around items-center py-3 px-5">
                <button onClick={()  => push("/")} className="font-bold text-xl">RacketDesign</button>
                <div className="md:hidden">
