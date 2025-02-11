@@ -1,7 +1,7 @@
 # RacketDesign (Free React Components from Racket Labs)
 
 ## In Action
-https://racketdesign.vercel.app/
+https://racket-design.vercel.app/
 
 ## Prerequisites
 * Zustand (or any state management tool)
